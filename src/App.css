@@ -1,6 +1,7 @@
 .banner{
   margin-left: 9.278%;
   margin-right: 9.278%;
+  margin-top: 25px;
 }
 .banner_1{
   display: flex;
@@ -106,6 +107,7 @@ color: #FFFFFF;
   background: #1D4781;
   width: 222px;
   height: 71px;
+  margin-top: 10px;
 }
 .banner_bottom_button>button{
   font-family: Arial;
@@ -128,7 +130,7 @@ color: #FFFFFF;
 .banner_4{
   display: none;
 }
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 650px){
   .text{
     font-family: Georgia;
 font-style: normal;
@@ -221,6 +223,9 @@ font-weight: bold;
 font-size: 14px;
 line-height: 20px;
 }
+.contact_us{
+  margin-top: 10px;
+}
 .contact_us>button{
   font-family: Arial;
   font-style: normal;
@@ -284,13 +289,12 @@ background: #2C2C2C;
   margin-top: 56px;
 }
 .footer1B{
-  margin-left: auto;
+  margin-left: 25%;
   margin-top: 56px;
   width: 25.722222%;
 }
 .social{
   margin-top: 56px;
-  margin-left: 9.09722222%;
 }
 .footername{
   margin-top: 25px;
@@ -381,10 +385,7 @@ color: #FFFFFF;
     display: flex;
   }
   .footer1B{
-    margin-left: auto;
-  }
-  .footer1B{
-    margin-left: auto;
+    margin-left: 25%;
     width:51%;
   }
   .footer1A{
@@ -412,5 +413,79 @@ color: #FFFFFF;
   .footer1B{
     margin-left: 9px;
     width:51%;
+  }
+}
+/*    ---------------------------------------------------------------------------------------------------------------             */
+.banner_about{
+  display: flex;
+}
+.banner_about{
+  margin-top:25px;
+  margin-left: 9.278%;
+  margin-right: 9.278%;
+  background-color:#FBFBFB;
+  ;
+}
+.about_us_a{
+  width: 50%;
+  display: flex;
+}
+.about_us_b{
+  margin-left: auto;
+  width: 48%;
+  font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+color: #333333;
+}
+.about_us_c{
+  margin-left: auto;
+  width: 49%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.about_us_d{
+  width: 49%;
+}
+.imagegg {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+.about_us_e{
+  font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 64px;
+color: #1D4781;
+}
+.about_us_g{
+  display: none;
+}
+@media only screen and (max-width: 1050px) {
+  .about_us_g{
+    display: block;
+    font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 64px;
+  color: #1D4781;
+  }
+  .about_us_e{
+    display: none;
+  }
+  .banner_about{
+    flex-direction: column;
+  }
+  .about_us_a{
+    width: 100%;
+  }
+  .about_us_b{
+    width: 100%;
   }
 }

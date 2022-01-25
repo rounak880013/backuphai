@@ -2,8 +2,6 @@ import React from 'react';
 import image1 from '../assests/Carousel1.png'
 import Carousel from 'react-bootstrap/Carousel';
 import { RiShareFill} from "react-icons/ri";
-
-
 function Carousell() {
   return <div>
     <div style={{

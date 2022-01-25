@@ -1,21 +1,21 @@
 import React from "react";
-
+import Navbar from "./components/Navbar";
+import Carousell from "./components/Carousell";
 import './App.css';
-import Banner from './Banner'
-import Contact from './Contact'
-import Footer from './Footer'
-
+import Banner from './components/Banner'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
+import Aboutus from './components/Aboutus'
 const App = () => {
   return (
     <>
-    {/* fhjll;;
       <Navbar />
       <Carousell />
-      <About /> */}
+      <Aboutus />
       <Banner />
       <Contact />
       <Footer />
-    </>
+      </>
   );
 };
 

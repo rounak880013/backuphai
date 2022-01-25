@@ -1,4 +1,5 @@
-import image8 from './img/image 12.png'
+import image8 from '../assests/image 12.png'
+import { FaArrowRight } from 'react-icons/fa';
 function Contact(){
     return(
         <div className='banner'>
@@ -20,7 +21,7 @@ function Contact(){
         </div>
         <div>
       <div className='contact_us'>
-        <button>Send Email-></button>
+        <button>Send Email<FaArrowRight/></button>
       </div>
     </div>
       </div>

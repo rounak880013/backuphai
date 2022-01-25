@@ -1,10 +1,10 @@
-import image9 from './img/Template 2.png'
-import image10 from './img/Vector.png'
-import image11 from './img/Vector (1).png'
-import image12 from './img/Vector (2).png'
-import image13 from './img/facebook.png'
-import image14 from './img/twitter.png'
-import image15 from './img/linkedin1.png'
+import image9 from '../assests/Template 2.png'
+import image10 from '../assests/Vector.png'
+import image11 from '../assests/Vector (1).png'
+import image12 from '../assests/Vector (2).png'
+import image13 from '../assests/facebook.png'
+import image14 from '../assests/twitter.png'
+import image15 from '../assests/linkedin1.png'
 function Footer(){
     return(
         <footer>
